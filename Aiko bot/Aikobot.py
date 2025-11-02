@@ -3,7 +3,8 @@ import feedparser
 import asyncio
 import os
 
-TOKEN = 'MTQzNDMzNDAyNjYwMDE1MzE1Mg.GXooeq.vXIJB-uuf3d7fp2UgQ4GLtW_ctPW67A91GlIYY'
+TOKEN = os.getenv('TOKEN')
+
 CHANNEL_ID = 1432397659385233588
 
 OBRA_ROLE_MAP = {
